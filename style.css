@@ -1,3 +1,6 @@
+*{
+  scroll-behavior: smooth;
+}
 .centeredImage {
     display: block;
     margin-left: auto ;
@@ -13,6 +16,9 @@ body {
   }
 img{
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.75);
+}
+iframe{
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.75);
 }
 #myBtn {
   display: none; /* Hidden by default */
@@ -33,4 +39,8 @@ img{
 }
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+.list:link{
+  color: lightgray;
+  text-decoration: none;
 }
