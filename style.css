@@ -7,7 +7,7 @@
     margin-right: auto;
 }
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Lato', sans-serif;
     /* Use a fallback font if the preferred fonts are not available */
     background-color: white;
     line-height: 1.5;
@@ -19,6 +19,7 @@ img{
 }
 iframe{
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.75);
+  border: 0px;
 }
 #myBtn {
   display: none; /* Hidden by default */
@@ -40,7 +41,20 @@ iframe{
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
-.list:link{
-  color: lightgray;
+.listBorder{
+  border: 1px solid #aaa;
+  background-color: #f9f9f9;
+  text-align: left;
+  display: table;
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.noBullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.noUnderline {
   text-decoration: none;
 }
